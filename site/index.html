@@ -3,24 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>David Chu's China Bistro</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 col-lg-3">Col 1</div>
-            <div class="col-md-4 col-lg-3">Col 2</div>
-            <div class="col-md-4 col-lg-3">Col 3</div>
-        </div>
-        <div class="row">
-            <div class="col-6">Col 1</div>
-            <div class="col-6">Col 2</div>
-            <div class="col-6">Col 3</div>
-        </div>
-    </div>
+    <header>
+      <nav id="header-nav" class="navbar navbar-expand-md">
+        <div class="container align-items-start">
+          <div class="navbar-header d-flex justify-content-between">
+            <a href="index.html" class="float-start d-none d-md-block me-auto">
+              <div id="logo-img"></div>
+            </a>
+        
+            <div class="navbar-brand">
+              <a href="index.html">
+                <h1>David Chu's China Bistro</h1>
+              </a>
+        
+              <p>
+                <img src="images/star-k-logo.png" alt="Kosher certification">
+                <span>Kosher Certified</span>
+              </p>
+            </div>
+          </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsable-nav" aria-controls="collapsable-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse align-items-start justify-content-end">
+            <ul id="nav-list" class="navbar-nav">
+              <li class="nav-item">
+                <a href="menu-categories.html" class="nav-link">
+                  Menu
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  About
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link me-3">
+                  Awards
+                </a>
+              </li>
+
+              <li id="phone" class="nav-item d-none d-sm-block">
+                <a href="tel:410-602-5008" class="nav-link">
+                  <span>410-602-5008</span>
+                </a>
+                
+                <div>* We Deliver</div>
+              </li>
+            </ul>
+          </div>
+        </div>        
+      </nav>
+    </header>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
